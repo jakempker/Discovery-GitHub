@@ -1,0 +1,35 @@
+name,file,note,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013
+ADAYWK,Core,"Admission day of week: (1) Sunday, (2) Monday, (3) Tuesday,(4) Wednesday, etc. ",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--
+AGE,Core,Age in years at admission coded 0-90 years (0-124 years prior to 2012),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+AGEDAY,Core,Age in days coded 0-365 only when the age in years is less than 1 year,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--
+AGE_NEONATE,Core,"Neonatal age (first 28 days after birth) indicator: (0) non-neonatal age, (1) neonatal age",--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes
+AHAID,Hospital,AHA hospital identifier that matches AHA Annual Survey Database (not available for all states),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--
+AMONTH,Core,Admission month coded from (1) January to (12) December,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+APRDRG,Severity,All Patient Refined DRG ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+APRDRG_Risk_Mortality,Severity,"All Patient Refined DRG: Risk of Mortality Subclass: (0) No class specified, (1) Minor likelihood of dying, (2) Moderate likelihood of dying, (3) Major likelihood of dying, (4) Extreme likelihood of dying",--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+APRDRG_Severity,Severity,"All Patient Refined DRG: Severity of Illness Subclass: (0) No class specified, (1) Minor loss of function (includes cases with no comorbidity or complications), (2) Moderate loss of function, (3) Major loss of function, (4) Extreme loss of function",--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+APSDRG,Severity,All-Payer Severity-adjusted DRG ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--,--,--
+APSDRG_Charge_Weight,Severity,All-Payer Severity-adjusted DRG: Charge Weight ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--,--,--
+APSDRG_LOS_Weight,Severity,All-Payer Severity-adjusted DRG: Length of Stay Weight,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--,--,--
+APSDRG_Mortality_Weight,Severity,All-Payer Severity-adjusted DRG: Mortality Weight ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--,--,--
+ASOURCE,Core,"Admission source, uniform coding: (1) ER, (2) another hospital, (3) another facility including long-term care, (4) court/law enforcement, (5) routine/birth/other ",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--
+ASOURCE_X,Core,"Admission source, as received from data source using State-specific coding",--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--
+ASOURCEUB92,Core,Admission source (UB-92 standard coding) ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--
+ATYPE,Core,"Admission type, uniform coding: (1) emergency, (2) urgent, (3) elective, (4) newborn, (5) Delivery (coded in 1988-1997 data only), (5) trauma center beginning in 2003 data, (6) other ",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,--,--
+AWEEKEND,Core,"Admission on weekend: (0) admission on Monday-Friday, (1) admission on Saturday-Sunday",--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CCSMGN1-CCSMGN15,Dx_Pr_Grps,CCS Mental Health and Substance Abuse - General category for all diagnoses for NIS beginning in 2005,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,--,--,--,--,--,--,--
+CCSMSP1-CCSMSP15,Dx_Pr_Grps,CCS Mental Health and Substance Abuse - Detail category for all diagnoses for NIS beginning in 2005,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,--,--,--,--,--,--,--
+CHRON1-CHRON25,Dx_Pr_Grps,"Chronic Condition Indicators for all diagnoses for NIS beginning in 2005. Beginning in 2009, the diagnosis array was increased from 15 to 25.",--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CHRONB1-CHRONB25,Dx_Pr_Grps,"Chronic Condition Indicators – body system for all diagnoses for NIS beginning in 2005. Beginning in 2009, the diagnosis array was increased from 15 to 25.",--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_AIDS,Severity,AHRQ comorbidity measure: Acquired immune deficiency syndrome ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_ALCOHOL,Severity,AHRQ comorbidity measure: Alcohol abuse ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_ANEMDEF,Severity,AHRQ comorbidity measure: Deficiency anemias ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_ARTH,Severity,AHRQ comorbidity measure: Rheumatoid arthritis/collagen vascular diseases ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_BLDLOSS,Severity,AHRQ comorbidity measure: Chronic blood loss anemia ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_CHF,Severity,AHRQ comorbidity measure: Congestive heart failure ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_CHRNLUNG,Severity,AHRQ comorbidity measure: Chronic pulmonary disease ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_COAG,Severity,AHRQ comorbidity measure: Coagulopathy ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_DEPRESS,Severity,AHRQ comorbidity measure: Depression ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_DM,Severity,"AHRQ comorbidity measure: Diabetes, uncomplicated ",--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_DMCX,Severity,AHRQ comorbidity measure: Diabetes with chronic complications ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CM_DRUG,Severity,AHRQ comorbidity measure: Drug abuse ,--,--,--,--,--,--,--,--,--,--,--,--,--,--,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
